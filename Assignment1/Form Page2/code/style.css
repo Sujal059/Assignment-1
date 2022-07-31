@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    background-color: #F0F0F0;
+    padding: 10px 50px;
+    box-shadow: 0px 15px 10px -17px #111;
+}
+
+button {
+    border: 0ch;
+    background: none;
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+button img {
+    height: inherit;
+    width: 30px;
+    margin: 1px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidepanel {
+    margin-top: 54px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius:0px 10px 10px 0px ;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 50px;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+.dropdown{
+    margin-top:0;
+}
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #a4e2ed;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 60px;
+    right: 10px;
+
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  nav div{
+    float: right;
+  }
+.form{
+    margin: 40px 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(153, 155, 207, 0.379);
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form h1{
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+.form h2{
+    margin: 20px 0px;
+    border:1px solid #444;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(179, 181, 245);
+    padding-left: 20px;
+}
+.form h4{
+    padding: 5px;
+}
+.form div{
+    border: 1px solid lightslategray;
+    background-color: rgba(198, 198, 182, 0.786);
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 100px;
+}
+input{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding:10px;
+    margin: 20px;
+    margin-left: 100px;
+}
+.save{
+    background: none;
+}
+textarea{
+    border-radius: 10px;
+    width: relative;
+    margin: 5px;
+}
+.form .conclusionCls , .form .introCls{
+    margin-left: 100px;
+}
+
